@@ -4,14 +4,16 @@ var React = require('react');
 var ReactNative = require('react-native');
 var PropTypes = require('prop-types');
 var createReactClass = require('create-react-class');
+var DeprecatedPropTypes = require('deprecated-react-native-prop-types');
 
 var {
     StyleSheet,
     Slider,
     Text,
-    View,
-    ViewPropTypes
+    View
     } = ReactNative;
+
+var { ViewPropTypes } = DeprecatedPropTypes
 
 var SnapSlider = createReactClass({
     propTypes: {
