@@ -13,7 +13,7 @@ var {
     View
     } = ReactNative;
 
-var { ViewPropTypes } = DeprecatedPropTypes
+var { ViewPropTypes, TextPropTypes } = DeprecatedPropTypes
 
 var SnapSlider = createReactClass({
     propTypes: {
@@ -21,7 +21,7 @@ var SnapSlider = createReactClass({
         style: ViewPropTypes.style,
         containerStyle: ViewPropTypes.style,
         itemWrapperStyle: ViewPropTypes.style,
-        itemStyle: Text.propTypes.style,
+        itemStyle: TextPropTypes.style,
         items: PropTypes.array.isRequired,
         defaultItem: PropTypes.number,
         labelPosition: PropTypes.string
