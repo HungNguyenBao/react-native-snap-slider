@@ -5,10 +5,10 @@ var ReactNative = require('react-native');
 var PropTypes = require('prop-types');
 var createReactClass = require('create-react-class');
 var DeprecatedPropTypes = require('deprecated-react-native-prop-types');
+var Slider = require('@react-native-community/slider');
 
 var {
     StyleSheet,
-    Slider,
     Text,
     View
     } = ReactNative;
