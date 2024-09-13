@@ -1,11 +1,11 @@
 'use strict';
+import Slider from '@react-native-community/slider'
 
 var React = require('react');
 var ReactNative = require('react-native');
 var PropTypes = require('prop-types');
 var createReactClass = require('create-react-class');
 var DeprecatedPropTypes = require('deprecated-react-native-prop-types');
-var Slider = require('@react-native-community/slider');
 
 var {
     StyleSheet,
